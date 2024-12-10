@@ -1,5 +1,6 @@
 Projeto Banco de Dados Saúde e Fitness = USR_FITNESS
 
+Modelo Físico = USR_FITNESS
 
 O banco de dados USR_FITNESS foi projetado para gerenciar informações de membros de uma academia, seus planos de treinamento, exercícios e histórico de atividades. Ele inclui as seguintes tabelas:
 
