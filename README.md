@@ -24,13 +24,29 @@ Inserção de Dados:
 
   1 - Execute o script `DML/dados.sql` para popular as tabelas com dados iniciais.
 
-Validação:
+Instrução e Validação:
 
   1 - Realize consultas para verificar a consistência dos dados:
      ```sql
      SELECT * FROM MEMBROS;
      SELECT * FROM HISTORICO_TREINAMENTO;
      ```
+
+  2 - Executar o Script DDL Primeiro:
+Certifique-se de executar o arquivo estrutura.sql para criar as tabelas e as restrições antes de executar o arquivo dados.sql. 
+
+  3 - Inserção e Consulta de Dados:
+Após executar o script dados.sql, use consultas SQL para validar a inserção dos dados, como:
+
+    SELECT * FROM MEMBROS;
+    SELECT * FROM HISTORICO_TREINAMENTO;
+    
+  4 - Verificar Restrições de Integridade:
+Tente inserir registros inválidos (como duplicar chaves primárias ou violar relações) para confirmar que as restrições estão funcionando corretamente.
+
+  5 - Testar Cenários de Relacionamentos:
+Insira dados nas tabelas relacionadas, garantindo que os registros respeitem as chaves estrangeiras e validem os relacionamentos.
+    
 
 Objetivo do Projeto
 
